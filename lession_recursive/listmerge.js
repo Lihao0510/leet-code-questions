@@ -1,12 +1,3 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>Algorithm调试</title>
-</head>
-<body>
-<script type="text/javascript">
-//将要测试的代码复制到此处,用于模拟浏览器环境调试
 /**
  * @param {ListNode} l1
  * @param {ListNode} l2
@@ -33,7 +24,6 @@ var mergeTwoLists = function (l1, l2) {
   var resultCursor = resultList.next;
 
   while (l1.next && l2.next) {
-    console.log(l1, l2);
     resultCursor.next = new ListNode(l1.next);
     resultCursor = resultCursor.next;
     resultCursor.next = new ListNode(l2.next);
@@ -53,18 +43,14 @@ var mergeTwoLists = function (l1, l2) {
   return resultList;
 };
 
-var l1 = new ListNode(1);
+var l1 = new ListNode(1)
 l1.next = new ListNode(2);
 l1.next.next = new ListNode(3);
 
-var l2 = new ListNode(4);
+var l2 = new ListNode(4)
 l2.next = new ListNode(5);
 l2.next.next = new ListNode(6);
 l2.next.next.next = new ListNode(7);
 
 var result = mergeTwoLists(l1, l2);
 console.log(result);
-
-</script>
-</body>
-</html>
