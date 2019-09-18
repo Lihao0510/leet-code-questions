@@ -2,12 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="859cde4a-ac4f-4666-be02-74a5125f6338" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.editorconfig" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lession_recursive/listmerge.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lession_recursive/pow.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lession_recursive/kth_grammar.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/template.html" beforeDir="false" afterPath="$PROJECT_DIR$/template.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -24,7 +20,7 @@
         <entry file="file://$PROJECT_DIR$/lession_recursive/pow.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="600">
-              <caret line="25" column="4" lean-forward="true" selection-start-line="25" selection-start-column="4" selection-end-line="25" selection-end-column="4" />
+              <caret line="25" column="4" selection-start-line="25" selection-start-column="4" selection-end-line="25" selection-end-column="4" />
             </state>
           </provider>
         </entry>
@@ -32,17 +28,26 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/lession_recursive/listmerge.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="472">
-              <caret line="46" column="26" lean-forward="true" selection-end-line="56" />
+            <state relative-caret-position="703">
+              <caret line="75" lean-forward="true" selection-start-line="75" selection-end-line="75" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/lession_recursive/kth_grammar.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="782">
+              <caret line="58" lean-forward="true" selection-start-line="58" selection-end-line="58" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/template.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1032">
-              <caret line="58" lean-forward="true" selection-start-line="58" selection-end-line="58" />
+            <state relative-caret-position="464">
+              <caret line="21" column="17" lean-forward="true" selection-start-line="21" selection-start-column="17" selection-end-line="21" selection-end-column="17" />
             </state>
           </provider>
         </entry>
@@ -56,6 +61,11 @@
         <option value="JavaScript File" />
       </list>
     </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>确认还款</find>
+    </findStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -75,8 +85,10 @@
         <option value="$PROJECT_DIR$/lession_recursive/climbstairs.js" />
         <option value="$PROJECT_DIR$/lession_recursive/tree_depth.js" />
         <option value="$PROJECT_DIR$/lession_recursive/pow.js" />
-        <option value="$PROJECT_DIR$/lession_recursive/listmerge.js" />
         <option value="$PROJECT_DIR$/template.html" />
+        <option value="$PROJECT_DIR$/lession_recursive/listmerge.js" />
+        <option value="$PROJECT_DIR$/lession_recursive/kth_symbol.js" />
+        <option value="$PROJECT_DIR$/lession_recursive/kth_grammar.js" />
       </list>
     </option>
   </component>
@@ -88,8 +100,8 @@
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
     <option name="y" value="23" />
-    <option name="width" value="1440" />
-    <option name="height" value="806" />
+    <option name="width" value="1442" />
+    <option name="height" value="807" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -147,14 +159,14 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Node.js.pow.js">
+  <component name="RunManager" selected="Node.js.kth_grammar.js">
     <configuration name="climbstairs.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="climbstairs.js" working-dir="$PROJECT_DIR$/lession_recursive">
       <method v="2" />
     </configuration>
     <configuration name="fibonacci.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="fibonacci.js" working-dir="$PROJECT_DIR$/lession_recursive">
       <method v="2" />
     </configuration>
-    <configuration name="listreverse.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/lession_recursive/listreverse.js" working-dir="$PROJECT_DIR$/lession_recursive">
+    <configuration name="kth_grammar.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="kth_grammar.js" working-dir="$PROJECT_DIR$/lession_recursive">
       <method v="2" />
     </configuration>
     <configuration name="pow.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="pow.js" working-dir="$PROJECT_DIR$/lession_recursive">
@@ -165,11 +177,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Node.js.kth_grammar.js" />
         <item itemvalue="Node.js.pow.js" />
         <item itemvalue="Node.js.tree_depth.js" />
         <item itemvalue="Node.js.climbstairs.js" />
         <item itemvalue="Node.js.fibonacci.js" />
-        <item itemvalue="Node.js.listreverse.js" />
       </list>
     </recent_temporary>
   </component>
@@ -187,7 +199,7 @@
       <workItem from="1568130682513" duration="3294000" />
       <workItem from="1568171068729" duration="1465000" />
       <workItem from="1568632164271" duration="1330000" />
-      <workItem from="1568683935318" duration="21512000" />
+      <workItem from="1568683935318" duration="31487000" />
     </task>
     <task id="LOCAL-00001" summary="1.init recursive lessions;">
       <created>1568690123360</created>
@@ -196,22 +208,35 @@
       <option name="project" value="LOCAL" />
       <updated>1568690123360</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="1.完成pow操作;">
+      <created>1568718351190</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1568718351190</updated>
+    </task>
+    <task id="LOCAL-00003" summary="1.完成合并有序链表题目;">
+      <created>1568778508888</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1568778508888</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="29362000" />
+    <option name="totallyTimeSpent" value="39337000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1920" height="986" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.13217483" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.13217483" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.24720357" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3165548" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.63585436" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -230,7 +255,9 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="1.init recursive lessions;" />
-    <option name="LAST_COMMIT_MESSAGE" value="1.init recursive lessions;" />
+    <MESSAGE value="1.完成pow操作;" />
+    <MESSAGE value="1.完成合并有序链表题目;" />
+    <option name="LAST_COMMIT_MESSAGE" value="1.完成合并有序链表题目;" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/lession_recursive/listreverse.js">
@@ -302,20 +329,27 @@
     <entry file="file://$PROJECT_DIR$/lession_recursive/pow.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="600">
-          <caret line="25" column="4" lean-forward="true" selection-start-line="25" selection-start-column="4" selection-end-line="25" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lession_recursive/listmerge.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="472">
-          <caret line="46" column="26" lean-forward="true" selection-end-line="56" />
+          <caret line="25" column="4" selection-start-line="25" selection-start-column="4" selection-end-line="25" selection-end-column="4" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/template.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1032">
+        <state relative-caret-position="464">
+          <caret line="21" column="17" lean-forward="true" selection-start-line="21" selection-start-column="17" selection-end-line="21" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lession_recursive/listmerge.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="703">
+          <caret line="75" lean-forward="true" selection-start-line="75" selection-end-line="75" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lession_recursive/kth_grammar.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="782">
           <caret line="58" lean-forward="true" selection-start-line="58" selection-end-line="58" />
         </state>
       </provider>
