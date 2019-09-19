@@ -30,31 +30,33 @@ var generateTrees = function(n) {
       numbers.push(index);
     }
 
-    //执行全排列
-    function fullpermutate(str) {
+    //执行全排列,获取所有可能的结果集
+    function fullPermutate(originNumbers) {
+      //记录所有可能性的数组
       var result = [];
-      if (str.length > 1) {
-        //遍历每一项
-        for (var m = 0; m < str.length; m++) {
-          //拿到当前的元素
-          var left = str[m];
-          //除当前元素的其他元素组合
-          var rest = str.slice(0, m).concat(str.slice(m + 1));
-          //上一次递归返回的全排列
-          var preResult = fullpermutate(rest);
-          //组合在一起
-          for (var i = 0; i < preResult.length; i++) {
-            var tmp = [left].concat(preResult[i]);
-            result.push(tmp);
+      if (originNumbers.length > 1) {
+        //遍历每一项,使用递归获取除这一项外的后续所有可能性
+        for (var m = 0; m < originNumbers.length; m++) {
+          //拿到第一个数字
+          var firstNumber = originNumbers[m];
+          //排除当前数字的其他数字组合
+          var rest = originNumbers.slice(0, m).concat(originNumbers.slice(m + 1));
+          //递归调用,获取所有的后续可能
+          var allPreResults = fullPermutate(rest);
+          //将首数字与后续可能组合在一起
+          for (var i = 0; i < allPreResults.length; i++) {
+            var totalResult = [firstNumber].concat(allPreResults[i]);
+            result.push(totalResult);
           }
         }
-      } else if (str.length === 1) {
-        result.push(str);
+      } else if (originNumbers.length === 1) {
+        //处理边界情况
+        result.push(originNumbers);
       }
       return result;
     }
 
-    return fullpermutate(numbers);
+    return fullPermutate(numbers);
   };
 
   //判断构造二叉树的终止条件
