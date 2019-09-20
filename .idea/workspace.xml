@@ -2,10 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="859cde4a-ac4f-4666-be02-74a5125f6338" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/basic_algorithm_array/remove_duplicates.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lession_one/generate_all_tree.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/basic_algorithm_array/besttime_sell.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/basic_algorithm_array/rotate_array.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/template.html" beforeDir="false" afterPath="$PROJECT_DIR$/template.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -19,24 +18,6 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/lession_recursive/pow.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="600">
-              <caret line="25" column="4" selection-start-line="25" selection-start-column="4" selection-end-line="25" selection-end-column="4" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/lession_recursive/listmerge.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1800">
-              <caret line="75" selection-start-line="75" selection-end-line="75" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/lession_recursive/kth_grammar.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="432">
@@ -49,7 +30,7 @@
         <entry file="file://$PROJECT_DIR$/lession_recursive/generate_tree.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="240">
-              <caret line="10" lean-forward="true" selection-end-line="117" />
+              <caret line="10" selection-end-line="117" />
               <folding>
                 <element signature="e#215#2569#0" />
               </folding>
@@ -66,11 +47,29 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/basic_algorithm_array/remove_duplicates.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="576">
-              <caret line="24" column="3" lean-forward="true" selection-start-line="24" selection-start-column="3" selection-end-line="24" selection-end-column="3" />
+            <state relative-caret-position="186">
+              <caret line="12" column="22" selection-start-line="12" selection-start-column="22" selection-end-line="12" selection-end-column="22" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/basic_algorithm_array/besttime_sell.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="156">
+              <caret line="16" column="48" selection-start-line="16" selection-start-column="48" selection-end-line="16" selection-end-column="48" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/basic_algorithm_array/rotate_array.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="400">
+              <caret line="26" lean-forward="true" selection-start-line="26" selection-end-line="26" />
             </state>
           </provider>
         </entry>
@@ -97,7 +96,7 @@
         <entry file="file://$PROJECT_DIR$/lession_one/tree_reverse.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="1200">
-              <caret line="50" column="2" lean-forward="true" selection-start-line="50" selection-start-column="2" selection-end-line="50" selection-end-column="2" />
+              <caret line="50" column="2" selection-start-line="50" selection-start-column="2" selection-end-line="50" selection-end-column="2" />
             </state>
           </provider>
         </entry>
@@ -154,6 +153,8 @@
         <option value="$PROJECT_DIR$/template.html" />
         <option value="$PROJECT_DIR$/lession_one/generate_all_tree.js" />
         <option value="$PROJECT_DIR$/basic_algorithm_array/remove_duplicates.js" />
+        <option value="$PROJECT_DIR$/basic_algorithm_array/rotate_array.js" />
+        <option value="$PROJECT_DIR$/basic_algorithm_array/besttime_sell.js" />
       </list>
     </option>
   </component>
@@ -165,8 +166,8 @@
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
     <option name="y" value="23" />
-    <option name="width" value="1450" />
-    <option name="height" value="816" />
+    <option name="width" value="1440" />
+    <option name="height" value="806" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -187,6 +188,16 @@
               <item name="Algorithm" type="b2602c69:ProjectViewProjectNode" />
               <item name="Algorithm" type="462c0819:PsiDirectoryNode" />
               <item name="basic_algorithm_array" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Algorithm" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Algorithm" type="462c0819:PsiDirectoryNode" />
+              <item name="lession_one" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Algorithm" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Algorithm" type="462c0819:PsiDirectoryNode" />
+              <item name="lession_recursive" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -224,29 +235,29 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Node.js.remove_duplicates.js">
-    <configuration name="generate_all_tree.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="generate_all_tree.js" working-dir="$PROJECT_DIR$/lession_one">
+  <component name="RunManager" selected="Node.js.besttime_sell.js">
+    <configuration name="besttime_sell.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="besttime_sell.js" working-dir="$PROJECT_DIR$/basic_algorithm_array">
       <method v="2" />
     </configuration>
-    <configuration name="kth_grammar.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="kth_grammar.js" working-dir="$PROJECT_DIR$/lession_recursive">
+    <configuration name="generate_all_tree.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="generate_all_tree.js" working-dir="$PROJECT_DIR$/lession_one">
       <method v="2" />
     </configuration>
     <configuration name="remove_duplicates.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="remove_duplicates.js" working-dir="$PROJECT_DIR$/basic_algorithm_array">
       <method v="2" />
     </configuration>
-    <configuration name="tree_reverse.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="tree_reverse.js" working-dir="$PROJECT_DIR$/lession_one">
+    <configuration name="rotate_array.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="rotate_array.js" working-dir="$PROJECT_DIR$/basic_algorithm_array">
       <method v="2" />
     </configuration>
-    <configuration name="two_sums.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="two_sums.js" working-dir="$PROJECT_DIR$/lession_one">
+    <configuration name="tree_reverse.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="tree_reverse.js" working-dir="$PROJECT_DIR$/lession_one">
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Node.js.besttime_sell.js" />
+        <item itemvalue="Node.js.rotate_array.js" />
         <item itemvalue="Node.js.remove_duplicates.js" />
         <item itemvalue="Node.js.generate_all_tree.js" />
         <item itemvalue="Node.js.tree_reverse.js" />
-        <item itemvalue="Node.js.two_sums.js" />
-        <item itemvalue="Node.js.kth_grammar.js" />
       </list>
     </recent_temporary>
   </component>
@@ -265,7 +276,7 @@
       <workItem from="1568171068729" duration="1465000" />
       <workItem from="1568632164271" duration="1330000" />
       <workItem from="1568683935318" duration="44751000" />
-      <workItem from="1568858319904" duration="12224000" />
+      <workItem from="1568858319904" duration="18000000" />
     </task>
     <task id="LOCAL-00001" summary="1.init recursive lessions;">
       <created>1568690123360</created>
@@ -316,22 +327,29 @@
       <option name="project" value="LOCAL" />
       <updated>1568913250570</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="1.完成去除重复数字;">
+      <created>1568947274065</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1568947274065</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="64825000" />
+    <option name="totallyTimeSpent" value="70601000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1920" height="986" extended-state="6" />
+    <frame x="0" y="23" width="1440" height="806" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.15745129" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.21071176" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.20246086" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.25350142" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.64317673" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -356,7 +374,8 @@
     <MESSAGE value="1.优化第k个数解答;" />
     <MESSAGE value="1.解答生成搜索树;" />
     <MESSAGE value="1.完成翻转二叉树;" />
-    <option name="LAST_COMMIT_MESSAGE" value="1.完成翻转二叉树;" />
+    <MESSAGE value="1.完成去除重复数字;" />
+    <option name="LAST_COMMIT_MESSAGE" value="1.完成去除重复数字;" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/lession_recursive/listreverse.js">
@@ -456,14 +475,14 @@
     <entry file="file://$PROJECT_DIR$/lession_one/tree_reverse.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1200">
-          <caret line="50" column="2" lean-forward="true" selection-start-line="50" selection-start-column="2" selection-end-line="50" selection-end-column="2" />
+          <caret line="50" column="2" selection-start-line="50" selection-start-column="2" selection-end-line="50" selection-end-column="2" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/lession_recursive/generate_tree.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="240">
-          <caret line="10" lean-forward="true" selection-end-line="117" />
+          <caret line="10" selection-end-line="117" />
           <folding>
             <element signature="e#215#2569#0" />
           </folding>
@@ -486,8 +505,22 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/basic_algorithm_array/remove_duplicates.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="576">
-          <caret line="24" column="3" lean-forward="true" selection-start-line="24" selection-start-column="3" selection-end-line="24" selection-end-column="3" />
+        <state relative-caret-position="186">
+          <caret line="12" column="22" selection-start-line="12" selection-start-column="22" selection-end-line="12" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/basic_algorithm_array/rotate_array.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="400">
+          <caret line="26" lean-forward="true" selection-start-line="26" selection-end-line="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/basic_algorithm_array/besttime_sell.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="156">
+          <caret line="16" column="48" selection-start-line="16" selection-start-column="48" selection-end-line="16" selection-end-column="48" />
         </state>
       </provider>
     </entry>
