@@ -2,11 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="859cde4a-ac4f-4666-be02-74a5125f6338" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/competition/fraction.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/competition/guess_number.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/competition/robot_adventure.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lession_one/defang_ipaddr.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lession_one/jewewinstone.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lession_one/poor_pigs.js" beforeDir="false" afterPath="$PROJECT_DIR$/lession_one/poor_pigs.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -20,27 +18,9 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/basic_algorithm_array/besttime_sell_pro.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="192">
-              <caret line="8" column="16" selection-start-line="8" selection-start-column="16" selection-end-line="8" selection-end-column="16" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/basic_algorithm_array/contains_duplicate.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="144">
-              <caret line="6" selection-start-line="6" selection-end-line="21" selection-end-column="2" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/lession_one/poor_pigs.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="168">
+            <state relative-caret-position="1224">
               <caret line="51" column="12" selection-start-line="51" selection-start-column="12" selection-end-line="51" selection-end-column="12" />
             </state>
           </provider>
@@ -55,11 +35,29 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/competition/fraction.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="456">
-              <caret line="19" column="13" lean-forward="true" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
+            <state relative-caret-position="528">
+              <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lession_one/jewewinstone.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="120">
+              <caret line="5" selection-start-line="5" selection-end-line="15" selection-end-column="2" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/lession_one/defang_ipaddr.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="240">
+              <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
             </state>
           </provider>
         </entry>
@@ -67,11 +65,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/competition/robot_adventure.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="403">
+            <state relative-caret-position="1104">
               <caret line="46" column="2" lean-forward="true" selection-start-line="46" selection-start-column="2" selection-end-line="46" selection-end-column="2" />
-              <folding>
-                <element signature="e#417#431#0" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -165,6 +160,8 @@
         <option value="$PROJECT_DIR$/competition/guess_number.js" />
         <option value="$PROJECT_DIR$/competition/robot_adventure.js" />
         <option value="$PROJECT_DIR$/competition/fraction.js" />
+        <option value="$PROJECT_DIR$/lession_one/jewewinstone.js" />
+        <option value="$PROJECT_DIR$/lession_one/defang_ipaddr.js" />
       </list>
     </option>
   </component>
@@ -175,7 +172,7 @@
     <auto-save>true</auto-save>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="y" value="23" />
+    <option name="y" value="203" />
     <option name="width" value="1440" />
     <option name="height" value="806" />
   </component>
@@ -187,7 +184,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -219,6 +215,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -250,14 +247,14 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Node.js.fraction.js">
+  <component name="RunManager" selected="Node.js.defang_ipaddr.js">
     <configuration name="contains_duplicate.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="contains_duplicate.js" working-dir="$PROJECT_DIR$/basic_algorithm_array">
       <method v="2" />
     </configuration>
-    <configuration name="fraction.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="fraction.js" working-dir="$PROJECT_DIR$/competition">
+    <configuration name="defang_ipaddr.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="defang_ipaddr.js" working-dir="$PROJECT_DIR$/lession_one">
       <method v="2" />
     </configuration>
-    <configuration name="monkeys.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="monkeys.js" working-dir="$PROJECT_DIR$/basic_algorithm_array">
+    <configuration name="fraction.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="fraction.js" working-dir="$PROJECT_DIR$/competition">
       <method v="2" />
     </configuration>
     <configuration name="poor_pigs.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="poor_pigs.js" working-dir="$PROJECT_DIR$/lession_one">
@@ -268,11 +265,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Node.js.defang_ipaddr.js" />
         <item itemvalue="Node.js.fraction.js" />
         <item itemvalue="Node.js.robot_adventure.js" />
         <item itemvalue="Node.js.poor_pigs.js" />
         <item itemvalue="Node.js.contains_duplicate.js" />
-        <item itemvalue="Node.js.monkeys.js" />
       </list>
     </recent_temporary>
   </component>
@@ -292,7 +289,8 @@
       <workItem from="1568632164271" duration="1330000" />
       <workItem from="1568683935318" duration="44751000" />
       <workItem from="1568858319904" duration="29239000" />
-      <workItem from="1569331973227" duration="4553000" />
+      <workItem from="1569331973227" duration="4992000" />
+      <workItem from="1569420618563" duration="761000" />
     </task>
     <task id="LOCAL-00001" summary="1.init recursive lessions;">
       <created>1568690123360</created>
@@ -371,22 +369,29 @@
       <option name="project" value="LOCAL" />
       <updated>1569077258732</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="1.完成leetcode秋季赛三道题;">
+      <created>1569375207462</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1569375207462</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="86393000" />
+    <option name="totallyTimeSpent" value="87593000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1920" height="986" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.15745129" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.117430225" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3736018" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.2360179" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.64317673" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -414,7 +419,8 @@
     <MESSAGE value="1.完成去除重复数字;" />
     <MESSAGE value="1.完成最大利润问题;" />
     <MESSAGE value="1.完善最大利润问题;" />
-    <option name="LAST_COMMIT_MESSAGE" value="1.完善最大利润问题;" />
+    <MESSAGE value="1.完成leetcode秋季赛三道题;" />
+    <option name="LAST_COMMIT_MESSAGE" value="1.完成leetcode秋季赛三道题;" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/lession_recursive/listreverse.js">
@@ -563,6 +569,27 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/lession_one/poor_pigs.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1224">
+          <caret line="51" column="12" selection-start-line="51" selection-start-column="12" selection-end-line="51" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/competition/guess_number.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="6" column="2" selection-start-line="6" selection-start-column="2" selection-end-line="12" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/competition/robot_adventure.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1104">
+          <caret line="46" column="2" lean-forward="true" selection-start-line="46" selection-start-column="2" selection-end-line="46" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/basic_algorithm_array/step_count.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="240">
@@ -591,34 +618,24 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lession_one/poor_pigs.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="51" column="12" selection-start-line="51" selection-start-column="12" selection-end-line="51" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/competition/guess_number.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="6" column="2" selection-start-line="6" selection-start-column="2" selection-end-line="12" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/competition/robot_adventure.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="403">
-          <caret line="46" column="2" lean-forward="true" selection-start-line="46" selection-start-column="2" selection-end-line="46" selection-end-column="2" />
-          <folding>
-            <element signature="e#417#431#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/competition/fraction.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="456">
-          <caret line="19" column="13" lean-forward="true" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
+        <state relative-caret-position="528">
+          <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lession_one/jewewinstone.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="5" selection-start-line="5" selection-end-line="15" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lession_one/defang_ipaddr.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
         </state>
       </provider>
     </entry>
