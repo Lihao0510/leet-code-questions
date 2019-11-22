@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="859cde4a-ac4f-4666-be02-74a5125f6338" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/lession_one/defang_ipaddr.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lession_one/jewewinstone.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wife_mission/build_flower.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -18,15 +17,6 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/lession_one/poor_pigs.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1224">
-              <caret line="51" column="12" selection-start-line="51" selection-start-column="12" selection-end-line="51" selection-end-column="12" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/competition/guess_number.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="144">
@@ -39,7 +29,7 @@
         <entry file="file://$PROJECT_DIR$/competition/fraction.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="528">
-              <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
+              <caret line="22" selection-start-line="22" selection-end-line="22" />
             </state>
           </provider>
         </entry>
@@ -53,11 +43,20 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/lession_one/defang_ipaddr.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="240">
               <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/wife_mission/build_flower.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="315">
+              <caret line="35" selection-start-line="35" selection-end-line="35" />
             </state>
           </provider>
         </entry>
@@ -162,6 +161,7 @@
         <option value="$PROJECT_DIR$/competition/fraction.js" />
         <option value="$PROJECT_DIR$/lession_one/jewewinstone.js" />
         <option value="$PROJECT_DIR$/lession_one/defang_ipaddr.js" />
+        <option value="$PROJECT_DIR$/wife_mission/build_flower.js" />
       </list>
     </option>
   </component>
@@ -172,9 +172,9 @@
     <auto-save>true</auto-save>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="y" value="203" />
-    <option name="width" value="1440" />
-    <option name="height" value="806" />
+    <option name="y" value="23" />
+    <option name="width" value="1920" />
+    <option name="height" value="986" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -194,22 +194,7 @@
             <path>
               <item name="Algorithm" type="b2602c69:ProjectViewProjectNode" />
               <item name="Algorithm" type="462c0819:PsiDirectoryNode" />
-              <item name="basic_algorithm_array" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Algorithm" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Algorithm" type="462c0819:PsiDirectoryNode" />
-              <item name="competition" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Algorithm" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Algorithm" type="462c0819:PsiDirectoryNode" />
-              <item name="lession_one" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Algorithm" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Algorithm" type="462c0819:PsiDirectoryNode" />
-              <item name="lession_recursive" type="462c0819:PsiDirectoryNode" />
+              <item name="wife_mission" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -247,8 +232,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Node.js.defang_ipaddr.js">
-    <configuration name="contains_duplicate.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="contains_duplicate.js" working-dir="$PROJECT_DIR$/basic_algorithm_array">
+  <component name="RunManager" selected="Node.js.build_flower.js">
+    <configuration name="build_flower.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="build_flower.js" working-dir="$PROJECT_DIR$/wife_mission">
       <method v="2" />
     </configuration>
     <configuration name="defang_ipaddr.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="defang_ipaddr.js" working-dir="$PROJECT_DIR$/lession_one">
@@ -265,11 +250,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Node.js.build_flower.js" />
         <item itemvalue="Node.js.defang_ipaddr.js" />
         <item itemvalue="Node.js.fraction.js" />
         <item itemvalue="Node.js.robot_adventure.js" />
         <item itemvalue="Node.js.poor_pigs.js" />
-        <item itemvalue="Node.js.contains_duplicate.js" />
       </list>
     </recent_temporary>
   </component>
@@ -290,7 +275,8 @@
       <workItem from="1568683935318" duration="44751000" />
       <workItem from="1568858319904" duration="29239000" />
       <workItem from="1569331973227" duration="4992000" />
-      <workItem from="1569420618563" duration="761000" />
+      <workItem from="1569420618563" duration="839000" />
+      <workItem from="1574412660073" duration="1223000" />
     </task>
     <task id="LOCAL-00001" summary="1.init recursive lessions;">
       <created>1568690123360</created>
@@ -376,17 +362,24 @@
       <option name="project" value="LOCAL" />
       <updated>1569375207462</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="1.完成ip无效化;&#10;2.完成珠宝鉴定;">
+      <created>1569462186361</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1569462186361</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="87593000" />
+    <option name="totallyTimeSpent" value="88894000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1920" height="986" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.117430225" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.108478144" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -420,7 +413,8 @@
     <MESSAGE value="1.完成最大利润问题;" />
     <MESSAGE value="1.完善最大利润问题;" />
     <MESSAGE value="1.完成leetcode秋季赛三道题;" />
-    <option name="LAST_COMMIT_MESSAGE" value="1.完成leetcode秋季赛三道题;" />
+    <MESSAGE value="1.完成ip无效化;&#10;2.完成珠宝鉴定;" />
+    <option name="LAST_COMMIT_MESSAGE" value="1.完成ip无效化;&#10;2.完成珠宝鉴定;" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/lession_recursive/listreverse.js">
@@ -583,6 +577,20 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/competition/fraction.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="528">
+          <caret line="22" selection-start-line="22" selection-end-line="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lession_one/jewewinstone.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="5" selection-start-line="5" selection-end-line="15" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/competition/robot_adventure.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1104">
@@ -618,24 +626,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/competition/fraction.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="528">
-          <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lession_one/jewewinstone.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="5" selection-start-line="5" selection-end-line="15" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/lession_one/defang_ipaddr.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="240">
           <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wife_mission/build_flower.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="35" selection-start-line="35" selection-end-line="35" />
         </state>
       </provider>
     </entry>
