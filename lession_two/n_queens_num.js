@@ -110,7 +110,7 @@ var solveNQueens = function(n) {
 
   //开始进行八皇后问题
   dropQueen();
-  return result;
+  return result.length;
 };
 
 var result = solveNQueens(4);
