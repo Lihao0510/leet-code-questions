@@ -21,6 +21,7 @@
 var solveNQueens = function(n) {
   //最终返回的答案
   var result = [];
+  //缓存在递归过程中前面行的列数,已经有的列数就不必再进行可行性判断了
   var columnCache = [];
 
   //先构建一个n*n的棋盘,初始化时不放置任何皇后
@@ -39,20 +40,25 @@ var solveNQueens = function(n) {
 
     //当行数大于n时,说明已经放完了皇后,方法成功
     if (row >= n) {
+      //保存结果
       result.push(snapshot(chessboard));
       return;
     }
 
     //对每一列进行递归判断,
     for (var column = 0; column < n; column++) {
+      //如果当前列已经在之前的行中放置了皇后,则不可放置,直接跳过
       if (columnCache.includes(column)) {
         continue;
       }
+      //第一行直接完成
       if (row === 0) {
         chessboard[row][column] = "Q";
         columnCache.push(column);
         dropQueen(row + 1);
+        //递归完成,重置棋盘,将当前棋子去除
         chessboard[row][column] = ".";
+        //列缓存出栈
         columnCache.pop();
       } else {
         if (checkPosition(row, column)) {
@@ -96,6 +102,7 @@ var solveNQueens = function(n) {
         return false;
       }
     }
+    //由于是从上想先放置,不需要判断左下与右上的情况
     return true;
   }
 
