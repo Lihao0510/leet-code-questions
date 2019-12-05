@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="859cde4a-ac4f-4666-be02-74a5125f6338" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/lession_two/n_queens_num.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lession_two/calculate_time.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lession_two/n_queens.js" beforeDir="false" afterPath="$PROJECT_DIR$/lession_two/n_queens.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -18,18 +17,9 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/lession_one/defang_ipaddr.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="10" selection-start-line="10" selection-end-line="10" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/lession_one/generate_all_tree.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-191">
+            <state relative-caret-position="48">
               <caret line="2" column="19" selection-start-line="2" selection-start-column="19" selection-end-line="2" selection-end-column="19" />
             </state>
           </provider>
@@ -38,7 +28,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/lession_one/poor_pigs.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="356">
+            <state relative-caret-position="1224">
               <caret line="51" column="12" selection-start-line="51" selection-start-column="12" selection-end-line="51" selection-end-column="12" />
             </state>
           </provider>
@@ -47,8 +37,17 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/basic_algorithm_array/besttime_sell.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="288">
-              <caret line="12" column="28" selection-start-line="12" selection-start-column="28" selection-end-line="12" selection-end-column="28" />
+            <state relative-caret-position="579">
+              <caret line="27" column="3" selection-start-line="27" selection-start-column="3" selection-end-line="27" selection-end-column="3" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/lession_two/calculate_time.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="488">
+              <caret line="41" column="57" selection-start-line="41" selection-start-column="57" selection-end-line="41" selection-end-column="57" />
             </state>
           </provider>
         </entry>
@@ -57,7 +56,7 @@
         <entry file="file://$PROJECT_DIR$/basic_algorithm_array/besttime_sell_pro.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="504">
-              <caret line="21" column="33" lean-forward="true" selection-start-line="21" selection-start-column="33" selection-end-line="21" selection-end-column="33" />
+              <caret line="21" column="33" selection-start-line="21" selection-start-column="33" selection-end-line="21" selection-end-column="33" />
             </state>
           </provider>
         </entry>
@@ -74,17 +73,17 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/lession_two/n_queens.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="627">
-              <caret line="114" selection-start-line="114" selection-end-line="116" selection-end-column="30" />
+            <state relative-caret-position="2760">
+              <caret line="115" column="3" lean-forward="true" selection-end-line="124" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/lession_two/n_queens_num.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="747">
-              <caret line="116" column="30" selection-start-line="116" selection-start-column="30" selection-end-line="116" selection-end-column="30" />
+            <state relative-caret-position="960">
+              <caret line="40" column="19" selection-start-line="40" selection-start-column="19" selection-end-line="40" selection-end-column="19" />
             </state>
           </provider>
         </entry>
@@ -163,8 +162,9 @@
         <option value="$PROJECT_DIR$/lession_one/defang_ipaddr.js" />
         <option value="$PROJECT_DIR$/wife_mission/build_flower.js" />
         <option value="$PROJECT_DIR$/template.html" />
-        <option value="$PROJECT_DIR$/lession_two/n_queens.js" />
         <option value="$PROJECT_DIR$/lession_two/n_queens_num.js" />
+        <option value="$PROJECT_DIR$/lession_two/n_queens.js" />
+        <option value="$PROJECT_DIR$/lession_two/calculate_time.js" />
       </list>
     </option>
   </component>
@@ -174,10 +174,10 @@
     <other-services-enabled>true</other-services-enabled>
     <auto-save>true</auto-save>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds">
     <option name="y" value="23" />
     <option name="width" value="1920" />
-    <option name="height" value="986" />
+    <option name="height" value="982" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -187,7 +187,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -224,6 +223,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -255,8 +255,11 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Node.js.build_flower.js">
+  <component name="RunManager" selected="Node.js.calculate_time.js">
     <configuration name="build_flower.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="build_flower.js" working-dir="$PROJECT_DIR$/wife_mission">
+      <method v="2" />
+    </configuration>
+    <configuration name="calculate_time.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="calculate_time.js" working-dir="$PROJECT_DIR$/lession_two">
       <method v="2" />
     </configuration>
     <configuration name="defang_ipaddr.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="defang_ipaddr.js" working-dir="$PROJECT_DIR$/lession_one">
@@ -265,19 +268,16 @@
     <configuration name="fraction.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="fraction.js" working-dir="$PROJECT_DIR$/competition">
       <method v="2" />
     </configuration>
-    <configuration name="poor_pigs.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="poor_pigs.js" working-dir="$PROJECT_DIR$/lession_one">
-      <method v="2" />
-    </configuration>
     <configuration name="robot_adventure.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="robot_adventure.js" working-dir="$PROJECT_DIR$/competition">
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Node.js.calculate_time.js" />
         <item itemvalue="Node.js.build_flower.js" />
         <item itemvalue="Node.js.defang_ipaddr.js" />
         <item itemvalue="Node.js.fraction.js" />
         <item itemvalue="Node.js.robot_adventure.js" />
-        <item itemvalue="Node.js.poor_pigs.js" />
       </list>
     </recent_temporary>
   </component>
@@ -302,7 +302,10 @@
       <workItem from="1574412660073" duration="2688000" />
       <workItem from="1574645550846" duration="338000" />
       <workItem from="1574660319976" duration="581000" />
-      <workItem from="1574843717534" duration="10296000" />
+      <workItem from="1574843717534" duration="12443000" />
+      <workItem from="1574952648268" duration="378000" />
+      <workItem from="1575038046118" duration="1782000" />
+      <workItem from="1575548334232" duration="788000" />
     </task>
     <task id="LOCAL-00001" summary="1.init recursive lessions;">
       <created>1568690123360</created>
@@ -416,22 +419,36 @@
       <option name="project" value="LOCAL" />
       <updated>1574861767658</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="1.完成八皇后问题2;">
+      <created>1574905616343</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1574905616343</updated>
+    </task>
+    <task id="LOCAL-00018" summary="1.优化八皇后问题;">
+      <created>1574906265711</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1574906265711</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="101574000" />
+    <option name="totallyTimeSpent" value="106669000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1920" height="982" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.15376514" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.114797264" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.2360179" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.23595506" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.64317673" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -464,7 +481,9 @@
     <MESSAGE value="1.完成种花;" />
     <MESSAGE value="1.尝试解决八皇后问题;" />
     <MESSAGE value="1.完成八皇后问题;" />
-    <option name="LAST_COMMIT_MESSAGE" value="1.完成八皇后问题;" />
+    <MESSAGE value="1.完成八皇后问题2;" />
+    <MESSAGE value="1.优化八皇后问题;" />
+    <option name="LAST_COMMIT_MESSAGE" value="1.优化八皇后问题;" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/lession_recursive/listreverse.js">
@@ -634,10 +653,31 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/basic_algorithm_array/rotate_array.js">
+    <entry file="file://$PROJECT_DIR$/lession_one/defang_ipaddr.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="624">
-          <caret line="26" selection-start-line="26" selection-end-line="26" />
+        <state relative-caret-position="240">
+          <caret line="10" selection-start-line="10" selection-end-line="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lession_one/generate_all_tree.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="48">
+          <caret line="2" column="19" selection-start-line="2" selection-start-column="19" selection-end-line="2" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lession_one/poor_pigs.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1224">
+          <caret line="51" column="12" selection-start-line="51" selection-start-column="12" selection-end-line="51" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/basic_algorithm_array/besttime_sell_pro.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="504">
+          <caret line="21" column="33" selection-start-line="21" selection-start-column="33" selection-end-line="21" selection-end-column="33" />
         </state>
       </provider>
     </entry>
@@ -648,38 +688,24 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lession_one/defang_ipaddr.js">
+    <entry file="file://$PROJECT_DIR$/lession_two/n_queens.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="10" selection-start-line="10" selection-end-line="10" />
+        <state relative-caret-position="2760">
+          <caret line="115" column="3" lean-forward="true" selection-end-line="124" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lession_one/generate_all_tree.js">
+    <entry file="file://$PROJECT_DIR$/lession_two/n_queens_num.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-191">
-          <caret line="2" column="19" selection-start-line="2" selection-start-column="19" selection-end-line="2" selection-end-column="19" />
+        <state relative-caret-position="960">
+          <caret line="40" column="19" selection-start-line="40" selection-start-column="19" selection-end-line="40" selection-end-column="19" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lession_one/poor_pigs.js">
+    <entry file="file://$PROJECT_DIR$/basic_algorithm_array/rotate_array.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="356">
-          <caret line="51" column="12" selection-start-line="51" selection-start-column="12" selection-end-line="51" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/basic_algorithm_array/besttime_sell.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="288">
-          <caret line="12" column="28" selection-start-line="12" selection-start-column="28" selection-end-line="12" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/basic_algorithm_array/besttime_sell_pro.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="504">
-          <caret line="21" column="33" lean-forward="true" selection-start-line="21" selection-start-column="33" selection-end-line="21" selection-end-column="33" />
+        <state relative-caret-position="624">
+          <caret line="26" selection-start-line="26" selection-end-line="26" />
         </state>
       </provider>
     </entry>
@@ -690,17 +716,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lession_two/n_queens.js">
+    <entry file="file://$PROJECT_DIR$/basic_algorithm_array/besttime_sell.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="627">
-          <caret line="114" selection-start-line="114" selection-end-line="116" selection-end-column="30" />
+        <state relative-caret-position="579">
+          <caret line="27" column="3" selection-start-line="27" selection-start-column="3" selection-end-line="27" selection-end-column="3" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lession_two/n_queens_num.js">
+    <entry file="file://$PROJECT_DIR$/lession_two/calculate_time.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="747">
-          <caret line="116" column="30" selection-start-line="116" selection-start-column="30" selection-end-line="116" selection-end-column="30" />
+        <state relative-caret-position="488">
+          <caret line="41" column="57" selection-start-line="41" selection-start-column="57" selection-end-line="41" selection-end-column="57" />
         </state>
       </provider>
     </entry>
