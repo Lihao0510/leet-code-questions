@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="859cde4a-ac4f-4666-be02-74a5125f6338" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/lession_two/calculate_time.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lession_two/delete_node.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -17,15 +17,6 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/lession_one/generate_all_tree.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="48">
-              <caret line="2" column="19" selection-start-line="2" selection-start-column="19" selection-end-line="2" selection-end-column="19" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/lession_one/poor_pigs.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="1224">
@@ -37,17 +28,26 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/basic_algorithm_array/besttime_sell.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="579">
+            <state relative-caret-position="648">
               <caret line="27" column="3" selection-start-line="27" selection-start-column="3" selection-end-line="27" selection-end-column="3" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/lession_two/calculate_time.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="488">
-              <caret line="41" column="57" selection-start-line="41" selection-start-column="57" selection-end-line="41" selection-end-column="57" />
+            <state relative-caret-position="576">
+              <caret line="24" column="20" selection-start-line="24" selection-start-column="20" selection-end-line="24" selection-end-column="20" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/lession_two/delete_node.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="360">
+              <caret line="15" column="19" lean-forward="true" selection-start-line="15" selection-start-column="19" selection-end-line="15" selection-end-column="19" />
             </state>
           </provider>
         </entry>
@@ -74,7 +74,7 @@
         <entry file="file://$PROJECT_DIR$/lession_two/n_queens.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="2760">
-              <caret line="115" column="3" lean-forward="true" selection-end-line="124" />
+              <caret line="115" column="3" selection-end-line="124" />
             </state>
           </provider>
         </entry>
@@ -165,6 +165,8 @@
         <option value="$PROJECT_DIR$/lession_two/n_queens_num.js" />
         <option value="$PROJECT_DIR$/lession_two/n_queens.js" />
         <option value="$PROJECT_DIR$/lession_two/calculate_time.js" />
+        <option value="$PROJECT_DIR$/lession_two/find_circle_num.js" />
+        <option value="$PROJECT_DIR$/lession_two/delete_node.js" />
       </list>
     </option>
   </component>
@@ -187,6 +189,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -223,7 +226,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -305,7 +307,9 @@
       <workItem from="1574843717534" duration="12443000" />
       <workItem from="1574952648268" duration="378000" />
       <workItem from="1575038046118" duration="1782000" />
-      <workItem from="1575548334232" duration="788000" />
+      <workItem from="1575548334232" duration="3786000" />
+      <workItem from="1575629566851" duration="6000" />
+      <workItem from="1575889499050" duration="998000" />
     </task>
     <task id="LOCAL-00001" summary="1.init recursive lessions;">
       <created>1568690123360</created>
@@ -433,22 +437,29 @@
       <option name="project" value="LOCAL" />
       <updated>1574906265711</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="1.增加单行打字机问题解答;">
+      <created>1575549507965</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1575549507965</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="106669000" />
+    <option name="totallyTimeSpent" value="110671000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1920" height="982" extended-state="6" />
+    <frame x="0" y="23" width="1920" height="982" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.114797264" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.114797264" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.23595506" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.23595506" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.64317673" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -483,7 +494,8 @@
     <MESSAGE value="1.完成八皇后问题;" />
     <MESSAGE value="1.完成八皇后问题2;" />
     <MESSAGE value="1.优化八皇后问题;" />
-    <option name="LAST_COMMIT_MESSAGE" value="1.优化八皇后问题;" />
+    <MESSAGE value="1.增加单行打字机问题解答;" />
+    <option name="LAST_COMMIT_MESSAGE" value="1.增加单行打字机问题解答;" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/lession_recursive/listreverse.js">
@@ -674,6 +686,13 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/basic_algorithm_array/besttime_sell.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="648">
+          <caret line="27" column="3" selection-start-line="27" selection-start-column="3" selection-end-line="27" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/basic_algorithm_array/besttime_sell_pro.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="504">
@@ -691,7 +710,7 @@
     <entry file="file://$PROJECT_DIR$/lession_two/n_queens.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2760">
-          <caret line="115" column="3" lean-forward="true" selection-end-line="124" />
+          <caret line="115" column="3" selection-end-line="124" />
         </state>
       </provider>
     </entry>
@@ -716,17 +735,24 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/basic_algorithm_array/besttime_sell.js">
+    <entry file="file://$PROJECT_DIR$/lession_two/find_circle_num.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="579">
-          <caret line="27" column="3" selection-start-line="27" selection-start-column="3" selection-end-line="27" selection-end-column="3" />
+        <state relative-caret-position="264">
+          <caret line="11" column="2" selection-start-line="11" selection-start-column="2" selection-end-line="11" selection-end-column="2" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/lession_two/calculate_time.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="488">
-          <caret line="41" column="57" selection-start-line="41" selection-start-column="57" selection-end-line="41" selection-end-column="57" />
+        <state relative-caret-position="576">
+          <caret line="24" column="20" selection-start-line="24" selection-start-column="20" selection-end-line="24" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lession_two/delete_node.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="15" column="19" lean-forward="true" selection-start-line="15" selection-start-column="19" selection-end-line="15" selection-end-column="19" />
         </state>
       </provider>
     </entry>
