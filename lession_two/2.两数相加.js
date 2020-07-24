@@ -26,29 +26,82 @@
  */
 var addTwoNumbers = function (l1, l2) {
   /*
-  思路: 将链表转换为数字, 进行数字相加, 在转换为链表
+  思路: 模拟加法, 逢10进位;
   */
   function ListNode(val) {
     this.val = val;
     this.next = null;
   }
-  var number1 = 0,
-    number2 = 0,
-    pos1 = 1,
-    pos2 = 1;
+  var startNode = null; // 结果的链表入口
+  var currentNode = null; // 结果当前链表节点, 指向最新的结果
+  while(l1 && l2) {
+    calcResult = l1.val + l2.val; // 计算两个链表相同位置节点的计算结果
+    var lastRemain = 0; // 计算后将进位数置为0
+    // 计算结果大于10时, 需要保留个位数, 同时进位
+    if (calcResult > 9) {
+      calcResult = calcResult % 10;
+      lastRemain = 1;
+    }
+    // 创建新的节点
+    var node = new ListNode(calcResult);
+    // 将新的节点插入至结果列表中
+    if (!startNode) {
+      currentNode = startNode = node;
+    } else {
+      currentNode.next = node;
+      currentNode = currentNode.next;
+    }
+    // 指向新的数组
+    l1 = l1.next;
+    l2 = l2.next;
+    // 当留有进位时, 将进位补充至下次遍历的节点中, 分为4中情况
+    if (lastRemain) {
+      if (!l1 && !l2) {
+        currentNode.next = new ListNode(lastRemain);
+      } else if (!l1 && l2) {
+        l1 = new ListNode(lastRemain);
+      } else if (!l2 && l1) {
+        l2 = new ListNode(lastRemain);
+      } else {
+        l1.val += lastRemain;
+      }
+    }
+  }
+
+  var remainList = l1 || l2;
+  if (!remainList) {
+    return startNode;
+  }
+  // 接上剩余的列表
+  currentNode.next = remainList;
+
+  return startNode;
+};
+// @lc code=end
+
+// 原计算法:
+var addTwoNumbers = function (l1, l2) {
+  /*
+  思路: 将链表转换为数字, 进行数字相加, 在转换为链表(超出2^32的数字计算失败)
+  */
+  function ListNode(val) {
+    this.val = val;
+    this.next = null;
+  }
+  var number1 = "",
+    number2 = "";
   while (l1) {
-    number1 += l1.val * pos1;
-    pos1 *= 10;
+    number1 = l1.val + number1;
     l1 = l1.next;
   }
   while (l2) {
-    number2 += l2.val * pos2;
-    pos2 *= 10;
+    number2 = l2.val + number2;
     l2 = l2.next;
   }
-  var result = number1 + number2;
-  console.log('计算结果 ==>', result);
-  var startNode = null, currentNode = null;
+  var result = parseInt(number1) + parseInt(number2);
+  console.log("计算结果 ==>", result);
+  var startNode = null,
+    currentNode = null;
   var currentNode = node;
   if (result === 0) {
     return new ListNode(0);
@@ -62,8 +115,7 @@ var addTwoNumbers = function (l1, l2) {
       currentNode.next = node;
       currentNode = currentNode.next;
     }
-    result = (result / 10) | 0;
+    result = Math.floor(result / 10);
   }
   return startNode;
 };
-// @lc code=end
