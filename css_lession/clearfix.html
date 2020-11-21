@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"/>
+  <title>Algorithm调试</title>
+</head>
+<body>
+  <style>
+    .box {
+      background-color: antiquewhite;
+      padding: 20px;
+      margin-bottom: 20px;
+    }
+    .clearfix::after,
+    .clearfix::before {
+      content: '';
+      height: 0;
+      width: 0;
+      display: table;
+    }
+    .clearfix::after {
+      clear: both;
+    }
+    .content {
+      width: 100px;
+      height: 100px;
+      float: left;
+      margin-right: 50px;
+      background-color: aquamarine;
+    }
+    .clear-item {
+      clear: left;
+    }
+  </style>
+  <div class="box clearfix2">
+    <div class="content"></div>
+    <div class="content"></div>
+    <!-- <div class="clear-item"></div> -->
+  </div>
+  <div class="clear-item"></div>
+</body>
+</html>
