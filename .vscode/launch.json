@@ -16,6 +16,12 @@
       "type": "chrome",
       "request": "launch",
       "file": "${workspaceFolder}/ds_template.html"
+    },
+    {
+      "name": "Launch playground.html",
+      "type": "chrome",
+      "request": "launch",
+      "file": "${workspaceFolder}/playground.html"
     }
   ]
 }

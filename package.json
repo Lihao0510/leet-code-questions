@@ -1,0 +1,22 @@
+{
+  "name": "leet-code-questions",
+  "version": "1.0.0",
+  "description": "",
+  "main": "playground.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Lihao0510/leet-code-questions.git"
+  },
+  "keywords": [
+    "practise"
+  ],
+  "author": "Lihao",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Lihao0510/leet-code-questions/issues"
+  },
+  "homepage": "https://github.com/Lihao0510/leet-code-questions#readme"
+}
