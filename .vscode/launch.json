@@ -5,20 +5,13 @@
   "version": "0.2.0",
   "configurations": [
     {
-      "name": "Launch localhost",
-      "type": "chrome",
-      "request": "launch",
-      "url": "http://localhost:8081",
-      "webRoot": "${workspaceFolder}"
-    },
-    {
-      "name": "Launch index.html",
+      "name": "ds_template.html",
       "type": "chrome",
       "request": "launch",
       "file": "${workspaceFolder}/ds_template.html"
     },
     {
-      "name": "Launch playground.html",
+      "name": "playground.html",
       "type": "chrome",
       "request": "launch",
       "file": "${workspaceFolder}/playground.html"
