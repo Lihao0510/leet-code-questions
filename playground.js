@@ -1,37 +1,19 @@
-function SmartPromise(executor) {
-
-    if (!(this instanceof SmartPromise)) {
-        throw new Error('SmartPromise构造函数必须通过new创建!');
-    }
-
-    var self = this;
-    self.status = 'pending';
-    self.value = null;
-    self.reason = null;
-
-    function resolve(value) {
-        console.log('Promise Resolve ==>', value);
-        self.value = value;
-    }
-
-    function reject(reason) {
-        console.log('Promise Reject ==>', value);
-        self.reason = reason;
-    }  
-
-    executor(resolve, reject);
+function Student(name) {
+    this.name = name;
 }
 
-SmartPromise.prototype.then = function (onfullfilled, onrejected) {
-
+Student.prototype.say = function() {
+    console.log('Say ==>', this.name);
 }
 
-var promise = new SmartPromise(function(resolve, reject) {
-    resolve(true);
-})
+Student.prototype.type = 'person';
 
-promise.then(function(result, err) {
-    console.log('Promise Result ==>', result);
-})
+var student = new Student('Wangnima');
 
-console.log('开始Promise调试 ==>', SmartPromise);
+student.say();
+
+var student2 = new student.__proto__.constructor('Zhaorenzhi');
+
+console.log('StudentType ==>', student.name, student.type);
+
+console.log(student, student2);
