@@ -48,7 +48,7 @@ var countNodes = function(root) {
   var rightHeight = getHeight(root.right);
   if (leftHeight === rightHeight) {
     // 测试left树为完全树
-    return Math.pow(2, leftHeight) + countNodesPro(root.right);
+    return Math.pow(2, leftHeight) + countNodes(root.right);
   } else {
     return Math.pow(2, rightHeight) + countNodesPro(root.left);
   }
