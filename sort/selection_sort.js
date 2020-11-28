@@ -1,7 +1,7 @@
-/* 
-插入排序
+/*
+选择排序
 */
-function insertSort(originArray) {
+function selectionSort(originArray) {
     for (let i = 0; i < originArray.length; i++) {
         var minNum = originArray[i];
         var minIndex = i;
