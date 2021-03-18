@@ -1,14 +1,21 @@
-const foo = () => {
-  var arr = []
-  var i
-
-  for (i = 0; i < 10; i++) {
-      arr[i] = function () {
-          console.log(i)
-      }
-  }
-
-  return arr[0]
+function Person(name) {
+  this.name = name;
 }
 
-foo()()
+var person = new Person('Lihao');
+
+console.log('当前Person对象 ==>', person);
+
+function newObj(...args) {
+  var constructor = args.shift();
+
+  var obj = Object.create(constructor.prototype);
+
+  var result = constructor.apply(obj, args);
+
+  return (typeof result === 'object' && result !== null) ? result: obj;
+}
+
+var mockPerson = newObj(Person, 'Wangnima');
+
+console.log('模拟new出的Person对象 ==>', mockPerson);
